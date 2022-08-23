@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Line Comparison Computation");
+            Comparison comparison = new Comparison(4, 8, 12, 16);
+            comparison.CalcLength();
         }
     }
 }
